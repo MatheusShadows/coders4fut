@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=outline|emboss|shadow-multiple");
+.firstpart{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-shadow: 3px 3px 3px #09012b;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0px 25px 0px 25px;
+  }
+  .name{
+    font-family: "Sofia", cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px #0c0b0b;
+    margin: 5px 25px 5px 25px;
+  }
+.button{
+  font-family: sans-serif;
+  color:rgb(5, 9, 68);
+  margin: 3px 25px 3px 25px;
+  font-size: 25px;
+  padding: 19px;
+  background-color: rgb(225, 252, 252);
+  border-radius: 25px;
+  border: 9px solid royalblue;
+  transition: 0.4s; 
+  cursor: pointer;
+}
+.button:hover{
+  background-color: royalblue;
+  color:rgb(255, 255, 255);
+  border: 9px solid rgb(225, 252, 252)
+}
+.description{
+  font-family: sans-serif;
+  color:rgb(49, 48, 48);
+  line-height: 145%;
+  margin: 3px 5px 3px 5px;
+  font-size: 16px;
+}
+.sobrenos{
+  color: rgb(0, 0, 0);
+  font-size: 34px; 
+  font-family: 'Kaushan Script', cursive;
+  margin: 2px 2px 2px 2px;
+}
+.aulas{
+  color: rgb(0, 0, 0);
+  font-size: 50px; 
+  font-family: 'Kaushan Script', cursive;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.aulassub{
+  color: rgb(0, 0, 0);
+  font-size: 25px; 
+  font-family: 'Dela Gothic One', cursive;
+  margin: 9px 2px 9px 2px;
+  text-align: center;
+}
+.main{
+  color: rgb(0, 0, 0);
+  margin: 9px 0px 9px 0px;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 35px;
+}
+.mentores{
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  text-shadow: 3px 3px 3px #09012b;
+  font-family: 'Kaushan Script', cursive;
+  margin: 20px 25px 0px 25px;
+  text-align: center;
+}
+.apoiadores{
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  text-shadow: 3px 3px 3px #09012b;
+  font-family: 'Kaushan Script', cursive;
+  margin: 70px 25px 50px 25px;
+  text-align: center;
+  padding-top: 45px;
+}
+.colab{
+  font-family: sans-serif;
+  color:rgba(172, 172, 172, 0.993);
+  line-height: 100%;
+  margin: 3px 5px 3px 5px;
+  font-size: 22px;
+}

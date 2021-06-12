@@ -1,0 +1,83 @@
+
+  .column {
+    float: left;
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .row {overflow-x: hidden; margin: 0 0px 0 -25px;}
+
+  .row::after {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    clear: both;
+  }
+  
+  .card { 
+    padding: 12px;
+    text-align: center;
+    width: 97%;
+    background-color: #f1f1f1;
+  }
+  
+ 
+  @media screen and (max-width: 640px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .img
+    {
+      margin: 0px 2% 0px 2%;
+      border-radius: 50%; 
+      border: 0px solid rgb(255, 255, 255);
+      width: 130px; 
+  }
+  
+  .columnd {
+    float: left;
+    display: flex;
+    width: 99%;
+    padding: 0 10px;
+    margin-top: 80px;
+  }
+  
+  .rowd {overflow-x: hidden; margin: 0 0px 0 -2px;}
+
+  .rowd::after {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    clear: both;
+  }
+  
+  .cardd {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2); 
+    padding: 15px;
+    text-align: center;
+    width: 87%;
+    height: 99%;
+    background-color: #f1f1f1;
+    margin-top: 2px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    transform: scale(1.0);
+    transition: all ease 0.2s;
+  }
+  .cardd:hover{
+    transform: scale(1.05);
+  }
+  
+ 
+  @media screen and (max-width: 900px) {
+    .columnd {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
